@@ -1,0 +1,60 @@
+/* Styles for the Services container */
+.services {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Heading style */
+.services h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Grid container for services */
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Service item link */
+.serviceItem {
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect on service items */
+.serviceItem:hover {
+    transform: scale(1.05);
+}
+
+/* Optional styling for individual service item */
+.serviceItem > div {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style for the service image */
+.serviceItem img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Style for the service name */
+.serviceItem h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style for the service description/body */
+.serviceItem p {
+    font-size: 1rem;
+    color: #666;
+}
