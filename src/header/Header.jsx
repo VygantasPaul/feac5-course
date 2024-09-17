@@ -58,10 +58,10 @@ const Header = () => {
 
                         </ul>
                     </nav>
-                    <div className="topbar">
+                    <div className={styles.userInfo}>
                         { user ? (
                             <div>
-                                <span>Welcome, { user.username }</span>
+                                <span className={styles.username}>Welcome, { user.username }</span>
                                 <button onClick={ handleLogout }>Logout</button>
                             </div>
                         ) : (

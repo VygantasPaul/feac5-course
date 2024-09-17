@@ -38,7 +38,9 @@
 .header .navigation ul li a:hover {
     text-decoration: underline;
 }
-
+.username {
+    padding-right: 10px;
+}
 .grid {
     display: grid;
     justify-content: center;
