@@ -3,7 +3,7 @@ const mongoose   = require( 'mongoose' );
 const bodyParser = require( 'body-parser' );
 
 const app  = express();
-const PORT = process.env.PORT || 3120;
+const PORT = process.env.PORT || 3100;
 
 
 mongoose.connect( 'mongodb+srv://vygantas01:vygantas01@cluster0.uk5gsno.mongodb.net/Home_services' ).then( () => console.log( 'Prisijungta prie MongoDB' ) ).catch( ( err ) => console.error( 'Klaida jungiantis prie MongoDB:', err ) );
